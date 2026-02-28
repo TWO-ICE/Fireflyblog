@@ -22,7 +22,7 @@ export const sponsorConfig: SponsorConfig = {
 		{
 			name: "微信",
 			icon: "fa7-brands:weixin",
-			qrCode: "https://img.twoice.fun:666/i/2026/02/28/微信图片_20260228222507_5_166-2.png",
+			qrCode: "/assets/images/sponsor/wechat-erb.jpg",
 			link: "",
 			description: "使用 微信 扫码赞助",
 			enabled: true,
