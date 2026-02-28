@@ -18,9 +18,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		LinkPreset.Archive,
 	];
 
-	// 友链
-	links.push(LinkPreset.Friends);
-
 	// 根据配置决定是否添加留言板，在siteConfig关闭pages.guestbook时导航栏不显示留言板
 	if (siteConfig.pages.guestbook) {
 		links.push(LinkPreset.Guestbook);
@@ -54,31 +51,29 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	// 自定义导航栏链接,并且支持多级菜单
+	// 二冰的社交链接
 	links.push({
-		name: "链接",
-		url: "/links/",
+		name: "联系",
+		url: "/contact/",
 		icon: "material-symbols:link",
-
-		// 子菜单
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/TWO-ICE",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				name: "微信公众号",
+				url: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU3NjY3Njg5Mg==#wechat_redirect",
 				external: true,
-				icon: "fa7-brands:gitee",
+				icon: "fa7-brands:weixin",
 			},
 			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
+				name: "Email",
+				url: "mailto:xgjyz@qq.com",
 				external: true,
-				icon: "fa7-brands:qq",
+				icon: "fa7-solid:envelope",
 			},
 		],
 	});
