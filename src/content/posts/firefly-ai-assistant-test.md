@@ -2,6 +2,7 @@
 title: Firefly 博客助手 - 测试文章
 published: 2026-02-28T06:30:00.000Z
 description: 这是由 Firefly AI 博客助手创建的测试文章，展示了各种 Markdown 功能和特性。
+image: api
 tags: [Firefly, AI助手, 测试, Markdown]
 category: 测试
 author: Firefly AI

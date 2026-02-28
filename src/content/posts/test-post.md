@@ -2,6 +2,7 @@
 title: 测试文章 - AI 自动生成
 published: 2026-02-28T03:55:00.000Z
 description: 这是一篇由 OpenClaw AI 自动生成的测试文章，用于验证 Git 自动提交和部署功能是否正常工作。
+image: api
 tags: [测试, AI, 自动化, OpenClaw]
 category: 测试
 draft: false
