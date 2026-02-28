@@ -16,6 +16,9 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 		// 归档
 		LinkPreset.Archive,
+
+		// 友链
+		LinkPreset.Friends,
 	];
 
 	// 根据配置决定是否添加留言板，在siteConfig关闭pages.guestbook时导航栏不显示留言板

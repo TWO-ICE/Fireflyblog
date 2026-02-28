@@ -16,16 +16,15 @@ export const friendsPageConfig: FriendsPageConfig = {
 
 // 友链配置
 export const friendsConfig: FriendLink[] = [
-	// 友链已清空 - 如需添加，请按照下方格式添加
-	// {
-	// 	title: "友链标题",
-	// 	imgurl: "头像URL",
-	// 	desc: "友链描述",
-	// 	siteurl: "网站URL",
-	// 	tags: ["标签"],
-	// 	weight: 10,
-	// 	enabled: true,
-	// },
+	{
+		title: "n8n实战派",
+		imgurl: "https://img.twoice.fun:666/i/2026/02/28/二冰-2.jpg",
+		desc: "n8n实战派 - 专注于 n8n 自动化实战教程",
+		siteurl: "https://szp.qazz.site/",
+		tags: ["n8n", "自动化"],
+		weight: 10,
+		enabled: true,
+	},
 ];
 
 // 获取启用的友链并按权重排序

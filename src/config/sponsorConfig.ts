@@ -20,36 +20,11 @@ export const sponsorConfig: SponsorConfig = {
 	// 赞助方式列表
 	methods: [
 		{
-			name: "支付宝",
-			icon: "fa7-brands:alipay",
-			// 收款码图片路径（需要放在 public 目录下）
-			qrCode: "/assets/images/sponsor/alipay.png",
-			link: "",
-			description: "使用 支付宝 扫码赞助",
-			enabled: true,
-		},
-		{
 			name: "微信",
 			icon: "fa7-brands:weixin",
-			qrCode: "/assets/images/sponsor/wechat.png",
+			qrCode: "https://img.twoice.fun:666/i/2026/02/28/微信图片_20260228222507_5_166-2.png",
 			link: "",
 			description: "使用 微信 扫码赞助",
-			enabled: true,
-		},
-		{
-			name: "ko-fi",
-			icon: "simple-icons:kofi",
-			qrCode: "",
-			link: "https://ko-fi.com/cuteleaf",
-			description: "Buy a Coffee for Firefly",
-			enabled: true,
-		},
-		{
-			name: "爱发电",
-			icon: "simple-icons:afdian",
-			qrCode: "",
-			link: "https://afdian.com/a/cuteleaf",
-			description: "通过 爱发电 进行赞助",
 			enabled: true,
 		},
 	],
