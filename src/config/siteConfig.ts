@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 
 	// 站点描述
 	description:
-		"记录关于 n8n 自动化流、AI 模型集成、NAS 玩机心得以及"野生二柴"的反鸡汤生活。在这个数字时代，用自动化解放双手。",
+		"记录关于 n8n 自动化流、AI 模型集成、NAS 玩机心得以及『野生二柴』的反鸡汤生活。在这个数字时代，用自动化解放双手。",
 
 	// 站点关键词
 	keywords: [
