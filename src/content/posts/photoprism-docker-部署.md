@@ -1,6 +1,6 @@
 ---
 title: Docker部署AI相册神器！一键实现人脸分类+智能搜索
-published: 2026-03-01T06:10:00.000Z
+published: 2026-03-01T06:20:00.000Z
 description: 兄弟们，还记得上次找那张全家福翻了三小时手机相册的惨痛经历吗？今天二冰给大家安利一款支持AI人脸识别的Docker相册神器，让你在海量照片中秒速定位目标！
 image: https://img.twoice.fun:666/i/2025/03/16/tmpa6lhvr2e-2.png
 tags: [Docker, AI, 相册管理, 人脸识别, PhotoPrism]
